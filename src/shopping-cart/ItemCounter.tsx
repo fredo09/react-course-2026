@@ -26,7 +26,6 @@ export const ItemCounter = ({
 			className="itemRowLinst">
 
 			{/* Buttons and counter will go here */}
-
 			<span className="itemColor" style={{
 				color: count > 0 ? 'green' : 'red'
 			}}>{productName}</span>
