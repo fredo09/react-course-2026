@@ -27,22 +27,22 @@ const stylesComponent: CSSProperties = {
 
 export const MyAwesomeApp = () => {
 	return (
-		<>
+		<div>
 			{/* Imprimiendo variables */}
 			<h1 data-testid="first-name">{firstName}</h1>
 			<h3>{lastName}</h3>
 
 			{/* Arreglos */}
-			<p>{favoriteGames.join(', ')}</p>
+			<p className="mi-clase-p">{favoriteGames.join(', ')}</p>
+			<p>4</p>
 
 			{/* Operadores ternarios "Booleanos"*/}
 			<h1>{isActive ? 'Active User' : 'Inactive User'}</h1>
 
 			{/* Objetos */}
-			<p
-				style={stylesComponent}>
+			<p style={stylesComponent}>
 				{JSON.stringify(address, null, 2)}
 			</p>
-		</>
+		</div>
 	)
 }

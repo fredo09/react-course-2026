@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > Should match snapshot 1`] = `
+<div>
+  <div>
+    <h1
+      data-testid="first-name"
+    >
+      Freddy
+    </h1>
+    <h3>
+      Vazqzz
+    </h3>
+    <p
+      class="mi-clase-p"
+    >
+      The last of us, Metal Gear, Death Stranding, Resident Evil
+    </p>
+    <p>
+      4
+    </p>
+    <h1>
+      Active User
+    </h1>
+    <p
+      style="color: white; background-color: red; border-radius: 10px; padding: 10px;"
+    >
+      {
+  "city": "New York",
+  "zip": 12345,
+  "street": "Main St"
+}
+    </p>
+  </div>
+</div>
+`;

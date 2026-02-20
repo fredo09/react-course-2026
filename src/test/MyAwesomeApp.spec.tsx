@@ -28,4 +28,12 @@ describe('MyAwesomeApp', () => {
 		const h1 = screen.getByTestId('first-name');
 		expect(h1?.innerHTML).toContain('Freddy');
 	});
+
+	// Validamos snapshot -> foto del componente, si el componente cambia, la prueba falla
+	test('Should match snapshot', () => {
+		const { container } = render(<MyAwesomeApp />);
+
+		// ayuda a validar que el componente no cambie, si cambia, la prueba falla
+		expect(container).toMatchSnapshot();
+	});
 });
