@@ -37,7 +37,9 @@ export const MyAwesomeApp = () => {
 			<p>4</p>
 
 			{/* Operadores ternarios "Booleanos"*/}
-			<h1>{isActive ? 'Active User' : 'Inactive User'}</h1>
+			<h1 data-testid="user-status">
+				{isActive ? 'Active User' : 'Inactive User'}
+			</h1>
 
 			{/* Objetos */}
 			<p style={stylesComponent}>

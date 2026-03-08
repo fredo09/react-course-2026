@@ -19,7 +19,9 @@ exports[`MyAwesomeApp > Should match snapshot 1`] = `
     <p>
       4
     </p>
-    <h1>
+    <h1
+      data-testid="user-status"
+    >
       Active User
     </h1>
     <p
