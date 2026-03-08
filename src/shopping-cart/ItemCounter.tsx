@@ -26,13 +26,15 @@ export const ItemCounter = ({
 			className="itemRowLinst">
 
 			{/* Buttons and counter will go here */}
-			<span className="itemColor" style={{
+			<span data-testid="product-name" className="itemColor" style={{
 				color: count > 0 ? 'green' : 'red'
 			}}>{productName}</span>
 
-			<button onClick={handleClickSubtract}>-1</button>
-			<span style={{fontWeight: 'bold'}}>{count || 0}</span>
-			<button onClick={handleClickAdd}>+1</button>
+			<button data-testid="subtract-button" onClick={handleClickSubtract}>-1</button>
+
+			<span data-testid="span-count" style={{fontWeight: 'bold'}}>{count || 0}</span>
+
+			<button data-testid="add-button" onClick={handleClickAdd}>+1</button>
 		</section>
 	)
 }

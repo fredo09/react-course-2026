@@ -1,0 +1,104 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FirstStepApp > should render the component 1`] = `
+<div>
+  <h1>
+    First Step App
+  </h1>
+  <p>
+    Esto es un parrafo!!
+  </p>
+  <button>
+    Click me!
+  </button>
+  <div>
+    <h2>
+      Hola!! dentro de un div
+    </h2>
+  </div>
+  <h3>
+    Carrito de compras
+  </h3>
+  <section
+    class="itemRowLinst"
+  >
+    <span
+      class="itemColor"
+      data-testid="product-name"
+      style="color: green;"
+    >
+      Nintendo Switch 2
+    </span>
+    <button
+      data-testid="subtract-button"
+    >
+      -1
+    </button>
+    <span
+      data-testid="span-count"
+      style="font-weight: bold;"
+    >
+      10
+    </span>
+    <button
+      data-testid="add-button"
+    >
+      +1
+    </button>
+  </section>
+  <section
+    class="itemRowLinst"
+  >
+    <span
+      class="itemColor"
+      data-testid="product-name"
+      style="color: green;"
+    >
+      Nintendo Switch 
+    </span>
+    <button
+      data-testid="subtract-button"
+    >
+      -1
+    </button>
+    <span
+      data-testid="span-count"
+      style="font-weight: bold;"
+    >
+      5
+    </span>
+    <button
+      data-testid="add-button"
+    >
+      +1
+    </button>
+  </section>
+  <section
+    class="itemRowLinst"
+  >
+    <span
+      class="itemColor"
+      data-testid="product-name"
+      style="color: green;"
+    >
+      Play Station 5 Pro
+    </span>
+    <button
+      data-testid="subtract-button"
+    >
+      -1
+    </button>
+    <span
+      data-testid="span-count"
+      style="font-weight: bold;"
+    >
+      1
+    </span>
+    <button
+      data-testid="add-button"
+    >
+      +1
+    </button>
+  </section>
+</div>
+`;

@@ -38,7 +38,7 @@ export const FirstStepApp = () => {
 		<ItemCounter productName="Play Station 5 Pro" quantity={1}/> */}
 
 		{
-			itemsInCart.map( ({ productName, quantity }) => (
+			itemsInCart.map(({ productName, quantity }) => (
 				<ItemCounter
 					key={productName}
 					productName={productName} 

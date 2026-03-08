@@ -44,5 +44,5 @@ export const MyAwesomeApp = () => {
 				{JSON.stringify(address, null, 2)}
 			</p>
 		</div>
-	)
+	);
 }
