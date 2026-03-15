@@ -19,86 +19,14 @@ exports[`FirstStepApp > should render the component 1`] = `
   <h3>
     Carrito de compras
   </h3>
-  <section
-    class="itemRowLinst"
-  >
-    <span
-      class="itemColor"
-      data-testid="product-name"
-      style="color: green;"
-    >
-      Nintendo Switch 2
-    </span>
-    <button
-      data-testid="subtract-button"
-    >
-      -1
-    </button>
-    <span
-      data-testid="span-count"
-      style="font-weight: bold;"
-    >
-      10
-    </span>
-    <button
-      data-testid="add-button"
-    >
-      +1
-    </button>
-  </section>
-  <section
-    class="itemRowLinst"
-  >
-    <span
-      class="itemColor"
-      data-testid="product-name"
-      style="color: green;"
-    >
-      Nintendo Switch 
-    </span>
-    <button
-      data-testid="subtract-button"
-    >
-      -1
-    </button>
-    <span
-      data-testid="span-count"
-      style="font-weight: bold;"
-    >
-      5
-    </span>
-    <button
-      data-testid="add-button"
-    >
-      +1
-    </button>
-  </section>
-  <section
-    class="itemRowLinst"
-  >
-    <span
-      class="itemColor"
-      data-testid="product-name"
-      style="color: green;"
-    >
-      Play Station 5 Pro
-    </span>
-    <button
-      data-testid="subtract-button"
-    >
-      -1
-    </button>
-    <span
-      data-testid="span-count"
-      style="font-weight: bold;"
-    >
-      1
-    </span>
-    <button
-      data-testid="add-button"
-    >
-      +1
-    </button>
-  </section>
+  <div
+    data-testid="item-counter"
+  />
+  <div
+    data-testid="item-counter"
+  />
+  <div
+    data-testid="item-counter"
+  />
 </div>
 `;
